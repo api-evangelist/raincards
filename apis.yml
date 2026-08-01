@@ -1,8 +1,18 @@
 aid: raincards
-name: Raincards
-description: 'Raincards is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+name: Rain (Raincards)
+description: >-
+  Rain is a stablecoin payments infrastructure company that lets platforms,
+  fintechs, and institutions issue cards, open virtual accounts and wallets, and
+  move money globally through a single API. Its issuing platform turns
+  self-custodied stablecoin collateral and digital-dollar balances into
+  Visa/Mastercard-accepted spending at over 175 million merchant locations,
+  connecting blockchain settlement rails to traditional card networks. Products
+  include card issuing, corporate/spend cards, virtual accounts, onramps and
+  offramps, and cross-border payment processing. Rain is a Mastercard Principal
+  Member and is backed by Norwest Venture Partners, Sapphire Ventures,
+  Lightspeed, and Coinbase Ventures. The public developer surface is a gated
+  Mintlify documentation portal at docs.rain.xyz covering the Rain Issuing API;
+  the OpenAPI/Swagger reference is behind login and not publicly retrievable.
 url: https://raw.githubusercontent.com/api-evangelist/raincards/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +20,31 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.rain.xyz/favicon.ico
 tags:
 - Company
-- Unknown
+- Payments
+- Stablecoins
+- Card Issuing
+- Fintech Infrastructure
+- Global Money Movement
+- Wallets
+- Web3 Finance
+- Cross-Border Payments
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +52,34 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/raincards-domain-security.yml
 - type: Website
-  url: https://raincards.xyz
+  url: https://www.rain.xyz
+- type: DeveloperPortal
+  url: https://docs.rain.xyz
+- type: Documentation
+  url: https://docs.rain.xyz
+- type: Blog
+  url: https://www.rain.xyz/blog
+- type: Support
+  url: https://www.rain.xyz/contact-us
+- type: Login
+  url: https://use.rain.xyz
+- type: StatusPage
+  url: https://status.rain.xyz
+- type: TrustCenter
+  url: https://trust.rain.xyz
+- type: TermsOfService
+  url: https://www.rain.xyz/legal-center/legal
+- type: PrivacyPolicy
+  url: https://legal.raincards.xyz/legal/privacy-policy
+- type: Lifecycle
+  url: lifecycle/raincards-lifecycle.yml
+- type: LLMsTxt
+  url: llms/raincards-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

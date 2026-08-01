@@ -1,0 +1,16 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.rain.xyz
+status_page: https://status.rain.xyz
+trust_center: https://trust.rain.xyz
+notes: >-
+  Rain publishes a public status page at status.rain.xyz (Rain TrustShare-hosted
+  status) and a trust center at trust.rain.xyz. The Rain Issuing API is
+  documented on a gated Mintlify portal (docs.rain.xyz) whose Swagger/OpenAPI
+  reference "is updated automatically with every backend release." No public
+  versioning policy, deprecation policy, or SLA document was retrievable without
+  authentication, so those fields are left unset rather than fabricated.
+versioning: null
+deprecation: null
+sla: null
+deprecated_operations: []
